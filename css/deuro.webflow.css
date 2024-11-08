@@ -447,6 +447,10 @@
   line-height: 17px;
 }
 
+.link {
+  color: var(--frankencoin-pay---brand-colorccs--titan-gray);
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     justify-content: center;
