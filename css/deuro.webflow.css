@@ -538,6 +538,38 @@
   transform: scale(1.1);
 }
 
+.github {
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.github:hover {
+  transform: scale(1.1);
+}
+
+.vectors-wrapper-76 {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: auto;
+  text-decoration: none;
+  display: flex;
+}
+
+.vectors-wrapper-76:hover {
+  transform: scale(1.1);
+}
+
+.githubb {
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.githubb:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     justify-content: center;
@@ -725,6 +757,18 @@
     padding-top: 42px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .links {
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .vectors-wrapper-76:hover {
+    transform: none;
   }
 }
 
